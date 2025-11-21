@@ -1,13 +1,13 @@
 from Size import Size
 
-class wallet:
+class Wallet:
     def __init__(self, color: str, size: Size, money: int, lostState: bool):
         self.color = color
         self.size = size
         self.money = money
         self.lostState = lostState
 
-    def add_money(self, amountToAdd) -> int:
+    def addMoney(self, amountToAdd) -> int:
         self.money += amountToAdd
         return self.money
 
