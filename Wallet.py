@@ -1,6 +1,6 @@
 from Size import Size
 
-class Wallet:
+class wallet:
     def __init__(self, color: str, size: Size, money: int, lostState: bool):
         self.color = color
         self.size = size

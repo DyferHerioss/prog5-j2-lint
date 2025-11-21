@@ -427,6 +427,7 @@ confidence=HIGH,
            INFERENCE_FAILURE,
            UNDEFINED
 
+
 # Disable the message, report, category or checker with the given id(s). You
 # can either give multiple identifiers separated by comma (,) or put this
 # option multiple times (only on the command line, not in the configuration
@@ -448,6 +449,7 @@ disable=raw-checker-failed,
         use-symbolic-message-instead,
         missing-docstring
 
+fail-on= C
 # Enable the message, report, category or checker with the given id(s). You can
 # either give multiple identifier separated by comma (,) or put this option
 # multiple time (only on the command line, not in the configuration file where
