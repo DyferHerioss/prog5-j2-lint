@@ -7,7 +7,7 @@ class wallet:
         self.money = money
         self.lostState = lostState
 
-    def addMoney(self, amountToAdd) -> int:
+    def add_money(self, amountToAdd) -> int:
         self.money += amountToAdd
         return self.money
 
